@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Ewinner.ManageSystem</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Ewinner.ManageSystem.Domain\Ewinner.ManageSystem.Domain.csproj" />
+    <ProjectReference Include="..\Ewinner.ManageSystem.TestBase\Ewinner.ManageSystem.TestBase.csproj" />
+  </ItemGroup>
+
+</Project>

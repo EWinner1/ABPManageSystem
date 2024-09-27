@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Ewinner.ManageSystem.Blazor.Client": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:11118;http://localhost:11119"
+    }
+  }
+}
